@@ -1,6 +1,34 @@
 ---
 layout: default
 ---
+
+<style>
+
+  body{
+    opacity: 1;
+    animation: fadeIn 0.5s ease;
+  }
+
+  @keyframes fadeIn{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+</style>
+
+<script>
+  $(window).unload(function () { $(window).unbind('unload'); });
+  $(window).bind('pageshow', function(event) {
+    if (event.originalEvent.persisted) {
+        window.location.reload()
+    }
+});
+</script>
+
 <article class="post">
 
   <header class="post-header">
