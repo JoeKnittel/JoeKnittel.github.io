@@ -268,7 +268,7 @@ Another ensemble model is called the boosted trees model. Rather than building a
 
 <b>Neural Network (Deep Learning) Models</b> ($\alpha$: <a href = "http://www.cse.chalmers.se/~coquand/AUTOMATA/mcp.pdf" target = "_blank">1943</a>, DL: <a href = "https://www.iro.umontreal.ca/~lisa/pointeurs/TR1312.pdf" target = "_blank">2009</a>)
 
-We briefly touched on the idea that was introduced in the early years of AI, the concept of “artificial neurons.” Researchers thought that if they could construct a model whose structure mirrors that of the human brain, it could be as good at—if not better than—people at making predictions.
+We briefly touched on the idea that was introduced in the early years of AI, the concept of “artificial neurons.” Researchers thought that if they could construct a model whose structure mirrors that of the human brain, it could be as good as—if not better than—people at making predictions.
 
 The model, at its core, is rather simple (it’s just a bunch of interwoven GLMs), but in many cases the sheer architectural complexity—the figure below contains three layers, whereas fifty or more layers wouldn’t be uncommon in a real-world deep learning model—often leads to computational difficulties.  
 
