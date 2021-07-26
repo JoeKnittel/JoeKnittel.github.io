@@ -2,10 +2,31 @@
 layout: default
 ---
 
+<style>
+
+  body{
+    opacity: 1;
+    animation: fadeIn 1s ease;
+  }
+
+  @keyframes fadeIn{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+</style>
+
 <script>
-  $(document).ready(function() {
-    $('body').hide().fadeIn(500);
- });
+  $(window).unload(function () { $(window).unbind('unload'); });
+  $(window).bind('pageshow', function(event) {
+    if (event.originalEvent.persisted) {
+        window.location.reload()
+    }
+});
 </script>
 
 <div class="home">
