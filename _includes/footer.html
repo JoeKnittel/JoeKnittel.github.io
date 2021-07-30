@@ -10,23 +10,26 @@
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
-              {{ site.author | escape }}
+              <i class="fas fa-home"></i> &nbsp; <a href = "https://joeknittel.com"> Author: Joe Knittel </a>  <!--- {{ site.author | escape }} -->
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%}
             </li>
             {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">joe.knittel@gmail.com</a></li>    <!-- {{ site.email }} -->
+            <li><i class="fas fa-envelope"></i> &ensp; <a class="u-email" href="mailto:{{ site.email }}">joe.knittel@gmail.com</a></li>    <!-- {{ site.email }} -->
             {%- endif -%}
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
-        {%- include social.html -%}
+        <ul class = "contact-list">  <!---  {%- include social.html -%} -->
+          <li class = "p-name"><i class="fab fa-github"></i> &nbsp; <a href = "https://www.github.com/JoeKnittel">GitHub </a></li>
+          <li class = "p-name"><i class="fab fa-goodreads"></i> &nbsp; <a href = "https://www.goodreads.com/user/year_in_books/2021/71325560">Reading List</a> </li>
+        </ul>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>A blog about actuarial science and data science. <br> Look out for new posts... <a href = "https://docs.google.com/document/d/1Gs07ubcfuQOrbJ5QCoZjuy359xcsnL3w4ekPk7J6S_8/edit">rarely</a>.</p>              <!-- {{- site.description | escape -}} --> 
+        <p class = "special">A blog about actuarial science and data science. <br> Look out for new posts... <a href = "https://docs.google.com/document/d/1Gs07ubcfuQOrbJ5QCoZjuy359xcsnL3w4ekPk7J6S_8/edit">rarely</a>.</p>              <!-- {{- site.description | escape -}} -->
       </div>
     </div>
 

@@ -11,7 +11,9 @@ html {
 body { font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #ffffff; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column;}
 
 /** Set `margin-bottom` to maintain vertical rhythm */
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
+h1, h2, h3, h4, h5, h6, blockquote, pre, ul, ol, dl, figure, p, .highlight { margin-bottom: 15px; }
+
+p.special {margin-bottom: 0px;}
 
 /** `main` element */
 main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
@@ -130,15 +132,15 @@ table td { border: 1px solid #e8e8e8; }
 
 .footer-heading { font-size: 18px; margin-bottom: 15px; }
 
-.contact-list, .social-media-list { list-style: none; margin-left: 0; }
+.contact-list, .social-media-list { list-style: none; margin-left: 0; margin-bottom: 0px}
 
 .footer-col-wrapper { font-size: 15px; color: #828282; margin-left: -15px; }
 
-.footer-col { float: left; margin-bottom: 15px; padding-left: 15px; }
+.footer-col { float: left; margin-bottom: 5px; padding-left: 15px; }
 
-.footer-col-1 { width: -webkit-calc(35% - (30px / 2)); width: calc(35% - (30px / 2)); }
+.footer-col-1 { width: -webkit-calc(32% - (30px / 2)); width: calc(32% - (30px / 2)); }
 
-.footer-col-2 { width: -webkit-calc(20% - (30px / 2)); width: calc(20% - (30px / 2)); }
+.footer-col-2 { width: -webkit-calc(23% - (30px / 2)); width: calc(23% - (30px / 2)); }
 
 .footer-col-3 { width: -webkit-calc(45% - (30px / 2)); width: calc(45% - (30px / 2)); }
 
