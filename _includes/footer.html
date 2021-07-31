@@ -10,13 +10,13 @@
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
-              <i class="fas fa-user-circle"></i> &ensp; <a href = "https://joeknittel.com">Joe Knittel </a> (Author)  <!--- {{ site.author | escape }} -->
+              <i class="fas fa-at"></i> &ensp; <a href = "https://joeknittel.com">Joe Knittel</a> <!--- {{ site.author | escape }} -->
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%}
             </li>
             {%- if site.email -%}
-            <li><i class="fas fa-envelope"></i> &ensp; <a class="u-email" href="mailto:{{ site.email }}">joe.knittel@gmail.com</a></li>    <!-- {{ site.email }} -->
+            <li><i class="fas fa-envelope"></i> &ensp; <a class="u-email" href="mailto:{{ site.email }}">E-mail Me</a></li>    <!-- {{ site.email }} -->
             {%- endif -%}
         </ul>
       </div>

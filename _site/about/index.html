@@ -116,7 +116,15 @@
   </header>
 
   <div class="post-content">
-    <p>Hi, I’m <a href="https://joeknittel.com/">Joe</a>, a thirtysomething who, after meandering hither and thither in my early post-college years, finds himself as an up-and-coming actuarial science practitioner.</p>
+    <p>Hi, I’m <a id="linkme" href="https://joeknittel.com/">Joe<img id="photome" src="/images/me.png" /></a>, a thirtysomething who, after meandering hither and thither in my early post-college years, finds himself as an up-and-coming actuarial science practitioner.</p>
+
+<script>
+  var linkme = document.getElementById("linkme");
+  var photome = document.getElementById("photome");
+  linkme.addEventListener("mouseover", function(event) {
+    photome.style.left = event.pageX-355 + 'px';
+  }, false);
+</script>
 
 <p>This blog will serve primarily as a tool to document what I’ve learned throughout my studies and exhibit various projects I’ve completed; I hope that, in doing so, it may prove useful to others on a similar journey.</p>
 
@@ -156,7 +164,7 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li class="p-name"><i class="fas fa-user-circle"></i> &ensp; <a href = "https://joeknittel.com">Joe Knittel </a> (Author)  <!--- Joe Knittel --></li><li><i class="fas fa-envelope"></i> &ensp; <a class="u-email" href="mailto:joe.knittel@gmail.com">joe.knittel@gmail.com</a></li>    <!-- joe.knittel@gmail.com --></ul>
+          <li class="p-name"><i class="fas fa-at"></i> &ensp; <a href = "https://joeknittel.com">Joe Knittel</a> <!--- Joe Knittel --></li><li><i class="fas fa-envelope"></i> &ensp; <a class="u-email" href="mailto:joe.knittel@gmail.com">E-mail Me</a></li>    <!-- joe.knittel@gmail.com --></ul>
       </div>
 
       <div class="footer-col footer-col-2">

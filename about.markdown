@@ -4,7 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm <a href = "https://joeknittel.com/">Joe</a>, a thirtysomething who, after meandering hither and thither in my early post-college years, finds himself as an up-and-coming actuarial science practitioner.
+Hi, I'm <a id = "linkme" href = "https://joeknittel.com/">Joe<img id = "photome" src = "/images/me.png"></a>, a thirtysomething who, after meandering hither and thither in my early post-college years, finds himself as an up-and-coming actuarial science practitioner.
+
+<script>
+  var linkme = document.getElementById("linkme");
+  var photome = document.getElementById("photome");
+  linkme.addEventListener("mouseover", function(event) {
+    photome.style.left = event.pageX-355 + 'px';
+  }, false);
+</script>
 
 This blog will serve primarily as a tool to document what I've learned throughout my studies and exhibit various projects I've completed; I hope that, in doing so, it may prove useful to others on a similar journey.
 
