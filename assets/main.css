@@ -146,9 +146,9 @@ table td { border: 1px solid #e8e8e8; }
 
 .footer-col { float: left; margin-bottom: 5px; padding-left: 15px; }
 
-.footer-col-1 { width: -webkit-calc(32% - (30px / 2)); width: calc(32% - (30px / 2)); }
+.footer-col-1 { width: -webkit-calc(31% - (30px / 2)); width: calc(31% - (30px / 2)); }
 
-.footer-col-2 { width: -webkit-calc(23% - (30px / 2)); width: calc(23% - (30px / 2)); }
+.footer-col-2 { width: -webkit-calc(24% - (30px / 2)); width: calc(24% - (30px / 2)); }
 
 .footer-col-3 { width: -webkit-calc(45% - (30px / 2)); width: calc(45% - (30px / 2)); }
 
