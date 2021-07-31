@@ -82,25 +82,7 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <style>
-
-  body{
-    opacity: 1;
-    animation: fadeIn 0.5s ease;
-  }
-
-  @keyframes fadeIn{
-    0%{
-      opacity: 0;
-    }
-    100%{
-      opacity: 1;
-    }
-  }
-
-</style>
-
-<script>
+        <script>
   $(window).unload(function () { $(window).unbind('unload'); });
   $(window).bind('pageshow', function(event) {
     if (event.originalEvent.persisted) {
