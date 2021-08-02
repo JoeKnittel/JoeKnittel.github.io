@@ -2,16 +2,6 @@
 layout: default
 ---
 
-
-<script>
-  $(window).unload(function () { $(window).unbind('unload'); });
-  $(window).bind('pageshow', function(event) {
-    if (event.originalEvent.persisted) {
-        window.location.reload()
-    }
-});
-</script>
-
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>

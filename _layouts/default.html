@@ -14,7 +14,12 @@
     </main>
 
     {%- include footer.html -%}
-
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+	     OverlayScrollbars(document.querySelectorAll("body"), {scrollbars:{autoHide:'m'}}
+       );
+    });
+  </script>
   </body>
 
 </html>

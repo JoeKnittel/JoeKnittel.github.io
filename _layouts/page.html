@@ -1,17 +1,6 @@
 ---
 layout: default
 ---
-
-
-<script>
-  $(window).unload(function () { $(window).unbind('unload'); });
-  $(window).bind('pageshow', function(event) {
-    if (event.originalEvent.persisted) {
-        window.location.reload()
-    }
-});
-</script>
-
 <article class="post">
 
   <header class="post-header">
