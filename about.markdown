@@ -18,7 +18,7 @@ This blog will serve primarily as a tool to document what I've learned throughou
 
 In an attempt to remain relevant in the ever-evolving technological landscape, much of the blog's content will focus on incorporating state-of-the-art tools and techniques, borrowing heavily from advances in computer science and data science.
 
-Read everything and thirsting for more? Here's a taste of <a href = "https://docs.google.com/document/d/1Gs07ubcfuQOrbJ5QCoZjuy359xcsnL3w4ekPk7J6S_8/edit?usp=sharing"> what's in store</a>.
+Read everything and thirsting for more? Here's a taste of <a href = "https://docs.google.com/document/d/1Gs07ubcfuQOrbJ5QCoZjuy359xcsnL3w4ekPk7J6S_8/edit?usp=sharing" target = "_blank"> what's in store</a>.
 
 <img src = "\images\squiggly.png" width = "100%">
 
@@ -29,7 +29,7 @@ Read everything and thirsting for more? Here's a taste of <a href = "https://doc
 <li> Site Generator: <a href = "https://jekyllrb.com/" target = "_blank">Jekyll</a> </li>
 <li> Web Hosting: <a href = "https://pages.github.com/" target = "_blank">GitHub Pages</a> </li>
 <li> Base Theme: <a href = "https://jekyll.github.io/minima/" target = "_blank">Minima</a> </li>
-<li> Custom CSS Libraries: <a href = "https://ianlunn.github.io/Hover/" target = "_blank">Hover.css</a> </li>
+<li> Custom CSS Libraries: <a href = "https://ianlunn.github.io/Hover/" target = "_blank">Hover.css</a>, <a href = "https://kingsora.github.io/OverlayScrollbars/#!overview" target = "_blank">OverlayScrollbars</a> </li>
 <li> Icons: <a href = "https://fontawesome.com/" target= "_blank">Font Awesome</a> </li>
 </ul>
 
