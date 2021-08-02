@@ -1,12 +1,12 @@
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
-/** Prevent scrollbar from disappearing **/
+/** Hide scrollbar; it will be replaced by pseudo-scrollbar **/
 html {
   overflow-y: hidden;
 }
 
-
+/** For hidden picture **/
 a img { display:none; }
 a:hover img {
   display: block;
@@ -14,6 +14,7 @@ a:hover img {
   top: 162px;
   z-index: 1;
 }
+
 
 /** Basic styling */
 body { font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #ffffff; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column;}
