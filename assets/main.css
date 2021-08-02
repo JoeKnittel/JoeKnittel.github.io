@@ -1,12 +1,11 @@
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
-/** Prevent scrollbar from disappearing
+/** Prevent scrollbar from disappearing **/
 html {
-  overflow-y: scroll;
-  overflow-y: overlay;
+  overflow-y: hidden;
 }
-*/
+
 
 a img { display:none; }
 a:hover img {
