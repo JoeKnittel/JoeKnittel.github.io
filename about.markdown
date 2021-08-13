@@ -10,7 +10,7 @@ Hi, I'm <a id = "linkme" href = "https://joeknittel.com/">Joe<img id = "photome"
   var linkme = document.getElementById("linkme");
   var photome = document.getElementById("photome");
   linkme.addEventListener("mouseover", function(event) {
-    photome.style.left = event.pageX-400 + 'px';
+    photome.style.left = event.pageX-406 + 'px';
   }, false);
 </script>
 
