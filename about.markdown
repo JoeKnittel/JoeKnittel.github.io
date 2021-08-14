@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm <a id = "linkme" href = "https://joeknittel.com/">Joe<img id = "photome" src = "/images/me.jpg"></a>, a thirtysomething who, after meandering hither and thither in my early post-college years, finds himself as an up-and-coming actuarial science practitioner.
+Hi, I'm <a id = "linkme" href = "https://joeknittel.com/">Joe<img id = "photome" src = "/images/me.jpg" width = "300"></a>, a thirtysomething who, after meandering hither and thither in my early post-college years, finds himself as an up-and-coming actuarial science practitioner.
 
 <script>
   var linkme = document.getElementById("linkme");
