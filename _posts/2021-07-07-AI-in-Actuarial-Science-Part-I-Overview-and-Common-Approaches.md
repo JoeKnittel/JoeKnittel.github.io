@@ -334,6 +334,6 @@ Whew! I guess our jobs are safe for now.
 
 ## Coming Up
 
-The tools actuaries have used for decades and, to an even greater extent, the machine learning-based techniques that they’ve begun exploring in recent years, perform rather well in prediction tasks, but what did the upper echelon teams in our experiment do differently to obtain state-of-the-art results? I have a sneaking suspicion that they've utilized the subfield of machine learning that we brushed over earlier: deep learning.
+The tools actuaries have used for decades and, to an even greater extent, the machine learning-based techniques that they’ve begun exploring in recent years, perform rather well in prediction tasks, but can we do better?
 
 In the second part of this series, we'll look to take our actuarial toolkit to the next level, by introducing practical ways of employing complex, neural network-based deep learning models.
