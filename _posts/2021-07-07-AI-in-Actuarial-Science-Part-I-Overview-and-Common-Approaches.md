@@ -88,7 +88,7 @@ In 2001, acclaimed statistician, Leo Breiman, <a href = "http://www2.math.uu.se/
 
 #### Data Models
 
-Guided by expert knowledge and intuition about the nature of the phenomenon being investigated, these models take a parametric form: $y_i = f\left(x_{1i},x_{2i},…,x_{ni}\right)$
+Guided by expert knowledge and intuition about the nature of the phenomenon being investigated, these models take a functional form: $y_i = f\left(x_{1i},x_{2i},…,x_{ni}\right)$
 
 Breiman estimated that, at the time, 98% of statisticians employed such models.
 
@@ -292,9 +292,9 @@ Data models (GLMs, survival models, regularized regression, etc.) present actuar
 
 ### Recent Modifications
 
-For decades, actuaries have been able to turn the blind eye to advances in AI, <a href = "https://theactuarymagazine.org/the-ai-revolution-is-coming/" target = "_blank">but it’s becoming no longer a feasible strategy</a>. In the past few years, actuaries have begun to re-consider machine learning models: *maybe that decision tree is better than the GLM I had intended to use*; or, *perhaps the exceptional predictive performance of that random forest is too good to disregard*.
+For decades, actuaries have been able to ignore advances in AI, <a href = "https://theactuarymagazine.org/the-ai-revolution-is-coming/" target = "_blank">but it’s becoming no longer a feasible strategy</a>. In the past few years, actuaries have begun to reconsider machine learning models: "*maybe that decision tree is better than the GLM I had intended to use*"; or, "*perhaps the exceptional predictive performance of that random forest is too good to disregard*".
 
-With that said, neural network-based deep learning models (which we’ll talk more about in Part II of this series), responsible for many of the most important recent AI advancements, remain a completely foreign concept to the vast majority of actuarial scientists.
+With that said, deep learning models (which we’ll talk more about in Part II of this series), responsible for many of the most important recent AI advancements, remain a completely foreign concept to the vast majority of actuarial scientists.
 
 ## Evaluating the Modern Actuarial Toolkit
 
@@ -324,14 +324,16 @@ Techniques to optimize performance included: log-transformed predictors, feature
 
 Not surprisingly, the ensemble tree-based methods yielded the best results, with random forests and eXtreme boosted trees correctly classifying around 80% of the passengers on the test set.
 
-That's not bad! Only 4.6% of the 50,000+ teams who competed were able to achieve this result. I guess <a href = "https://www.replacedbyrobot.info/69657/actuaries" target = "_blank">our jobs are safe for a while</a>.
+That's not bad! Only 4.6% of the 50,000+ teams who competed were able to achieve this result.
 
-One might wonder whether we could do better, though. After all, we’re supposed to be leaders in the statistical approaches to prediction-making, right?
+<font color = "green"><i><b>UPDATE</b>: It appears as though around 2000 of the top submissions were removed due to cheating.<br>Current standings: 534/49205 = Top 1.09%!</i></font>
+
+<p class="" style="margin: 20px;"></p>
+
+Whew! I guess our jobs are safe for now.
 
 ## Coming Up
 
-The tools actuaries have used for decades and, to an even greater extent, the machine learning-based techniques that they’ve begun exploring in recent years, perform rather well in prediction tasks.
-
-But what did the upper echelon teams in our experiment do differently to obtain state-of-the-art results? I have a sneaking suspicion that they've utilized the subfield of machine learning that we brushed over earlier: deep learning.
+The tools actuaries have used for decades and, to an even greater extent, the machine learning-based techniques that they’ve begun exploring in recent years, perform rather well in prediction tasks, but what did the upper echelon teams in our experiment do differently to obtain state-of-the-art results? I have a sneaking suspicion that they've utilized the subfield of machine learning that we brushed over earlier: deep learning.
 
 In the second part of this series, we'll look to take our actuarial toolkit to the next level, by introducing practical ways of employing complex, neural network-based deep learning models.
