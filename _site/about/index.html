@@ -147,19 +147,19 @@
   </header>
 
   <div class="post-content">
-    <p>Hi, I’m <a id="linkme" href="https://joeknittel.com/">Joe<img id="photome" src="/images/me.jpg" width="300" /></a>, a thirtysomething who, after meandering hither and thither in my early post-college years, finds himself as an up-and-coming actuarial science practitioner.</p>
+    <p>Hi, I’m <a id="linkme" href="https://joeknittel.com/">Joe<img id="photome" src="/images/me.jpg" width="200" /></a>, a thirtysomething who, after meandering hither and thither in my early post-college years, finds himself as an up-and-coming actuarial science practitioner.</p>
 
 <script>
   var linkme = document.getElementById("linkme");
   var photome = document.getElementById("photome");
   var isMobile = navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i);
-  if (isMobile || window.innerWidth < 1500) {
+  if (isMobile || window.innerWidth < 1340) {
     photome.style.display = "none";    
   }
   linkme.addEventListener("mouseover", function(event) {
-    if (!isMobile && window.innerWidth > 1500) {
+    if (!isMobile && window.innerWidth > 1340) {
       photome.style.display = "block";
-      photome.style.left = event.pageX-406 + 'px';
+      photome.style.left = ((window.innerWidth / 2) - (740 / 2) - 200 - 50) + 'px';    <!--- event.pageX-406 + 'px' -->
     }
   }, false);
   linkme.addEventListener("mouseout", function(event) {
