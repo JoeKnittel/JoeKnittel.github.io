@@ -9,13 +9,14 @@ Hi, I'm <a id = "linkme" href = "https://joeknittel.com/">Joe<img id = "photome"
 <script>
   var linkme = document.getElementById("linkme");
   var photome = document.getElementById("photome");
+  var isMobile = navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i);
+  if (isMobile || window.innerWidth < 1500) {
+    photome.style.display = "none";    
+  }
   linkme.addEventListener("mouseover", function(event) {
-    if (window.innerWidth > 1500) {
+    if (!isMobile && window.innerWidth > 1500) {
       photome.style.display = "block";
       photome.style.left = event.pageX-406 + 'px';
-    }
-    else {
-      photome.style.display = "none";
     }
   }, false);
   linkme.addEventListener("mouseout", function(event) {
